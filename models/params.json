@@ -1,0 +1,37 @@
+{
+    "batch_size": 8, 
+    "d_loss_weight": 1.0, 
+    "d_lr": 0.001, 
+    "d_wd": 0.0001, 
+    "data_dir": "/home/cha/SamSung/DataSet/tf_datasets/", 
+    "data_format": "NHWC", 
+    "datasets": [
+        "mpi_inf_3dhp"
+    ], 
+    "e_3d_weight": 1.0, 
+    "e_loss_weight": 60.0, 
+    "e_lr": 0.001, 
+    "e_wd": 0.0001, 
+    "encoder_only": false, 
+    "epoch": 100, 
+    "img_size": 220, 
+    "joint_type": "lsp", 
+    "load_path": null, 
+    "log_dir": "logs", 
+    "log_img_step": 100, 
+    "mocap_datasets": [
+        "CMU", 
+        "H3.6", 
+        "jointLim"
+    ], 
+    "model_dir": "logs/HMR_3DSUP_mpi_inf_3dhp_CMU-H3.6-jointLim_resnet_fc3_dropout_Elr1e-03_kp-weight60_Dlr1e-03_Nov28_1235", 
+    "model_type": "resnet_fc3_dropout", 
+    "num_stage": 3, 
+    "pretrained_model_path": null, 
+    "scale_max": 1.23, 
+    "scale_min": 0.8, 
+    "smpl_face_path": "/home/cha/SamSung/hmr/src/tf_smpl/smpl_faces.npy", 
+    "smpl_model_path": "/home/cha/SamSung/hmr/models/neutral_smpl_with_cocoplus_reg.pkl", 
+    "trans_max": 20, 
+    "use_3d_label": true
+}
